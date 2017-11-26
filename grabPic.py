@@ -133,7 +133,7 @@ class Spider:
             # 保存头像
             u = urllib.request.urlopen("http:"+item[1])
             data = u.read()
-            f = open("D:\pyworkspace\\"+item[2]+"\\"+item[2]+".gif", 'wb')
+            f = open("D:\pyworkspace\\aits-py\\"+item[2]+"\\"+item[2]+".gif", 'wb')
             f.write(data)
             print(u"正在悄悄保存她的一张图片为", item[2])
             f.close()
